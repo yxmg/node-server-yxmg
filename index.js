@@ -8,5 +8,14 @@ const app = express()
 app.get('/', (req, res) => {
   res.send('hello node')
 })
-let port = process.env.PORT
-app.listen(port || 3000)
+
+app.post('/upload', cors(), (req, res) => {
+  let result = {
+    req,
+    res
+  }
+  res.send(result)
+  // res.send(req.file.filename)
+})
+let port = process.env.PORT || 3000
+app.listen(port)
