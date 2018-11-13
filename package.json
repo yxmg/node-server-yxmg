@@ -1,0 +1,26 @@
+{
+  "name": "node-server-yxmg",
+  "version": "1.0.0",
+  "description": "for study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxmg/node-server-yxmg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yxmg/node-server-yxmg/issues"
+  },
+  "homepage": "https://github.com/yxmg/node-server-yxmg#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  }
+}
